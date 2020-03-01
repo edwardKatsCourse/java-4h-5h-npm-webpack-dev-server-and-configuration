@@ -1,0 +1,44 @@
+nodejs npm
++ installation
+
+npm commands
++ package.json 
+
+
+webpack | frontend ecosystem
+
+
+NodeJS: JavaScript + server libraries (JS->C++)
+
+browser <- V8 <- index.js
+OS		<- V8 <- index.js
+
+- C++ -> OS: file system
+- C++ -> OS: multithreding
+
+public native void wait();
+
+NPM - Node Package Manager ("maven")
+
+npm install <библиотеку_которую_я_нашел_в_инете_10_секунд_назад>
+
+
+NPM						maven
+npmjs.com				maven repository
+package.json			pom.xml
+(package-lock.json)
+
+
+
+webpack
+grunt
+gulp
+yarn
+
+
+
+WebPack
+'zero configuration'
+
+
+Library VS Framework
