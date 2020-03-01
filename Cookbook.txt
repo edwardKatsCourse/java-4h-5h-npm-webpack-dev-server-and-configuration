@@ -1,0 +1,34 @@
+1. Creating a new NPM project
+npm init -y
+
+2. Installing webpack and webpack-cli locally (project folder scope)
+npm install -D webpack webpack-cli
+
+3. Creating project structure
+mkdir src && cd src
+
+4. Add index.html and index.js, add some code, do NOT connect them directly using <script>
+
+5. Installing plugins and rules code for project processing by Webpack
+npm install -D html-webpack-plugin html-loader
+
+6. Configure webpack.config.js 
+(see code example)
+
+7. Add build 'script' to package.json 
+(see code example)
+
+8. Create dist folder with 'compiled' production-ready project
+npm run build
+
+9. Installing dev server
+npm install -D webpack-dev-server
+
+10. Add run 'script'
+(see code example)
+
+11. Image processing
+npm install -D file-loader
+
+12. Add a rule for file-loader
+(see code example)
